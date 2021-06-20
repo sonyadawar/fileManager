@@ -1,0 +1,23 @@
+.sideBarItem{
+    display: flex;
+    padding: 10px 0;
+    /* TRouBLe */
+    border-radius: 0 100px 100px 0;
+}
+
+.sideBarItem:hover{
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+.sideBarItem_arrow{
+    width: 28px;
+    margin-left: 50px;
+}
+
+.sideBarItem_main{
+    display: flex;
+}
+
+.sideBarItem_main>p{
+    margin-left: 12px;
+}
